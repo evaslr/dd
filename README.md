@@ -14,15 +14,15 @@ apt-get install -y xz-utils openssl gawk file
 
 - Debian 9
 ```
-bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 9 -v 64 -a -firmware
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/evaslr/dd/main/InstallNET.sh') -d 9 -v 64 -a -firmware
 ```
 
 - Debian 10
 ```
-bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 10.3 -v 64 -a -firmware
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/evaslr/dd/main/InstallNET.sh') -d 10.3 -v 64 -a -firmware
 ```
 
 - Debian 11
 ```
-bash <(wget --no-check-certificate -qO- 'https://moeclub.org/attachment/LinuxShell/InstallNET.sh') -d 11 -v 64 -a -firmware
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/evaslr/dd/main/InstallNET.sh') -d 11 -v 64 -a -firmware
 ```
