@@ -71,22 +71,21 @@
     ],
     "outbounds": [
         {
-            "tag": "proxy",
             "type": "vless",
-            "server": "d73b..xyz",
+            "tag": "proxy",
+            "server": "d73b.80.xyz",
             "server_port": 443,
             "uuid": "d731f620-47b5-4bd1-9b33-48cc4dae44c7",
             "flow": "xtls-rprx-vision",
-            "network": "tcp",
-            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "d73b..xyz",
+                "server_name": "d73b.80.xyz", 
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
+             },
+            "packet_encoding": "xudp"
         },
         {
             "type": "direct",
