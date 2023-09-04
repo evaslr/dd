@@ -34,3 +34,24 @@ bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/evasl
 ```
 bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/evaslr/dd/main/InstallNET.sh') -d 11 -v 64 -a -firmware
 ```
+
+- BBR
+```
+echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+```
+
+```
+echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
+```
+
+```
+sysctl -p
+```
+
+```
+sysctl net.ipv4.tcp_available_congestion_control
+```
+
+```
+lsmod | grep bbr
+```
