@@ -5,6 +5,9 @@
 ```
 apt-get update
 ```
+```
+apt-get upgrade
+```
 
 安装需要的工具包
 
