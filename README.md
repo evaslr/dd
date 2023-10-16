@@ -5,6 +5,7 @@
 ```
 apt-get update
 ```
+更新
 ```
 apt-get upgrade
 ```
