@@ -1,3 +1,21 @@
+# 乌班图系统的甲骨文云需要开启防火墙
+```
+iptables -P INPUT ACCEPT
+```
+```
+iptables -P FORWARD ACCEPT
+```
+```
+iptables -P OUTPUT ACCEPT
+```
+```
+iptables -F
+```
+```
+apr-get purge netfilter-persistent
+```
+
+
 # dd甲骨文等机器，准备工作。
 
 更新apt源
