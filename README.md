@@ -12,7 +12,7 @@ iptables -P OUTPUT ACCEPT
 iptables -F
 ```
 ```
-apr-get purge netfilter-persistent
+apt-get purge netfilter-persistent
 ```
 
 
