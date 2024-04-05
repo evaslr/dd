@@ -31,7 +31,7 @@ apt-get upgrade
 安装需要的工具包
 
 ```
-apt-get install -y xz-utils openssl gawk file wget curl sudo
+apt-get install -y xz-utils openssl gawk file wget curl sudo jq
 ```
 
 然后执行以下脚本，脚本全自动运行，dd之后会造成断开链接的情况，不用担心，请耐心等待20分钟或更久。可以通过ping端口来检测是否DD完成。
